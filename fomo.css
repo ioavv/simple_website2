@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    color: beige;
+}
+
+header {
+    background-color: thistle;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+h1.man {
+    color: black;
+}
+
+h1 {
+    color: blanchedalmond !important;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid red;
+    transition: width 0.4s ease-in-out;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid blue;
+} 
+
+* {
+    box-sizing: border-box;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: deeppink;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+}
+
